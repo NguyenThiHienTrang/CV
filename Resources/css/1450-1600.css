@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 22, 2019, 9:44:13 AM
+    Author     : luong
+*/
+
+@media screen
+and (min-width: 1450px) 
+and (max-width: 1600px) 
+{
+    .item span {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    .heading-big-primary {
+        font-size: 25px;
+    }
+
+    .heading-small-primary {
+        font-size: 15px;
+    }
+
+    .heading-primary {
+        font-size: 19px;
+    }
+    .heading-sub-primary {
+        font-size: 17px;
+    }
+    
+    .profile i {
+        font-size: 18px;
+    }
+
+    .contact td,
+    .skill td {
+        padding-bottom: 20px;
+    }
+
+    .right-content-wrapper {
+        margin: 0 50px 0 70px;
+    }
+
+    .left-content {
+        margin: 0 70px 0 0;
+    }
+
+    .skill .label {
+        width: 140px;
+    }
+
+    .contact .label {
+        width: 65px;
+    }
+
+    .contact td {
+        font-size: 16px;
+    }
+    .skill td {
+        font-size: 16px;
+    }
+
+    .working-exp td {
+        padding-bottom: 8px;
+    }
+    .working-exp .label {
+        width: 120px;
+    }
+
+    .right-content .sub-content {
+        margin-bottom: 40px;
+    }
+
+}

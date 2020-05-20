@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 22, 2019, 4:34:30 PM
+    Author     : Admin
+*/
+
+@media screen and (min-width: 300px) and (max-width: 400px){
+    .container {
+        width: 100%;
+    }
+    
+    .header {
+        width: 100%;
+    }
+    
+    .item span {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    
+    .profile i {
+        font-size: 21px;
+
+    }
+
+    .container-wrapper {
+        margin: 0 30px;
+        display: block;
+    }
+    
+    .left-content {
+        margin: 0;
+    }
+
+    .right-content-wrapper {
+        background: white;
+        margin: 0;
+    }
+    
+    .working-exp .label {
+        width: 150px;
+    }
+    
+    .skill .label {
+        width: 60px;
+    }
+
+    .portrait img {
+        width: 200px;
+        height: auto;
+    }
+
+    #drop {
+        font-size: 10px;
+        height: 18px;
+        margin-left: 15px;
+    }
+}
+

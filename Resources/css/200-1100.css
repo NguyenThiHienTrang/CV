@@ -1,0 +1,15 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 22, 2019, 9:45:25 AM
+    Author     : luong
+*/
+
+@media screen and (min-width: 100px) and (max-width: 1100px){
+    .container {
+        width: 100%;
+    }
+}

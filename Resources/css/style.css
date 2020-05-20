@@ -1,0 +1,227 @@
+/*Common*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+.container {
+    width: 1200px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container-wrapper {
+    margin: 0 90px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-auto-rows: auto;
+    padding-bottom: 40px;
+}
+
+.main-heading hr {
+    width: 100px;
+}
+
+span {
+    display: block;
+}
+
+table td {
+    vertical-align: top;
+}
+
+
+/*Header*/
+
+.header:hover {
+    opacity: 1;
+}
+
+.header {
+    height: 30px;
+    background: #2f5597;
+    width: 1200px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 1s;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    width: 1200px;
+    z-index: 1;
+    top:0;
+}
+
+
+
+.sticky + .container {
+    padding-top: 30px;
+}
+
+
+/*Footer*/
+
+
+/*Headings*/
+
+.main-heading {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.heading-big-primary,
+.heading-small-primary {
+    text-transform: uppercase;
+}
+
+.heading-big-primary {
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.heading-small-primary {
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.heading-primary {
+    margin-bottom: 30px;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #4164a0;
+}
+
+.heading-sub-primary {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/*Left Content*/
+
+.left-content {
+    margin: 0 40px 0 0;
+}
+
+.sub-content {
+    margin-bottom: 40px;
+}
+
+.item span {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.item {
+    margin-bottom: 19px;
+}
+
+.profile p {
+    letter-spacing: 1.5px;
+}
+
+.profile i {
+    font-size: 23px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+/*Right Content*/
+
+.right-content {
+    background: #f2f2f2;
+}
+
+.right-content .sub-content {
+    margin-bottom: 90px;
+}
+
+.right-content-wrapper {
+    margin: 0 20px 0 40px;
+}
+
+.portrait {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.portrait img {
+    width: 160px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.skill img {
+    width: 11px;
+    height: auto;
+}
+
+/*Dropdown language*/
+#drop {
+    border: none;
+    height: 20px;
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#drop:hover {
+    background: #f1f1f1;
+
+}
+
+
+/*Table Custom*/
+
+
+.contact td,
+.skill td {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.skill .label {
+    width: 160px;
+}
+
+.contact .label {
+    width: 60px;
+}
+
+.working-exp td {
+    padding-bottom: 30px;
+}
+
+.working-exp .label {
+    width: 30%;
+}
+
+
+
+/*Responsive Design*/
+
+
+
+
+
+
+
+
+
+
